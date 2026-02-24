@@ -1,0 +1,18 @@
+Running 17 checks on your project...
+15/17 checks passed. 2 checks failed. Possible issues detected:
+Use the --verbose flag to see more details about passed checks.
+
+??? Check for lock file
+No lock file detected.
+Advice:
+Install dependencies using the package manager of your choice to a generate a lock file.
+
+??? Check that no duplicate dependencies are installed
+Your project contains duplicate native module dependencies, which should be de-duplicated.
+Native builds may only contain one version of any given native module, and having multiple versions of a single Native module installed may lead to unexpected build errors.
+Found duplicates for expo-location:
+  ?????? expo-location@19.0.8 (at: node_modules\expo-location)
+  ?????? expo-location@15.1.1 (at: node_modules\@teovilla\react-native-web-maps\node_modules\expo-location)
+Advice:
+Resolve your dependency issues and deduplicate your dependencies. Learn more: https://expo.fyi/resolving-dependency-issues
+
